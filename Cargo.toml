@@ -1,0 +1,10 @@
+[package]
+name = "axum-sqlite"
+version = "0.5.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.5"
+tower = "0.4"
+r2d2 = "0.8"
+r2d2_sqlite = "0.20"
