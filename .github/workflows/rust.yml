@@ -7,8 +7,8 @@ on:
 name: build & test
 
 jobs:
-  timeout_minutes: 5
   build_and_test:
+    timeout_minutes: 5
     name: Rust Project
     runs-on: ubuntu-latest
     strategy:
